@@ -19,7 +19,7 @@ int main() {
     int res = knapSack( weight, value, result);
     printf("Maximum profit: %d\n", res);
 
-    printf("Selected items: ");
+    printf("Selected items:");
     for(int j = 0; j<5; j++){
         
             if(result[j]){
