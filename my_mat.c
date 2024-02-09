@@ -5,14 +5,11 @@
  void setItems(char* items,int* value,int* weight, int len){
         for (int i = 0; i < len; ++i)
     {
-        printf("items[%d]: ",i);
         scanf(" %s",&items[i]);
     
     
-        printf("value[%d]: ",i);
         scanf(" %d",&value[i]);
     
-        printf("weight[%d]: ",i);
         scanf(" %d",&weight[i]);
     }  
 }
